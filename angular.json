@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "dynamic-form-new"
+  "defaultProject": "dynamic-form-new",
+  "cli": {
+    "analytics": false
+  }
 }
