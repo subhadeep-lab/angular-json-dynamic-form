@@ -13,7 +13,7 @@ import { QuestionService } from './service/question.service';
   imports: [ 
     BrowserModule, 
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
    ],
   declarations: [ 
     AppComponent, 

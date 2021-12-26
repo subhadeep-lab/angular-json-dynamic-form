@@ -25,5 +25,46 @@
       "label": "Email",
       "type": "email",
       "order": 2
+    },
+    {
+      "controlType": "password",
+      "key": "password",
+      "label": "Password",
+      "type": "password",
+      "order": 4
+    },
+    {
+      "controlType": "textarea",
+      "key": "description",
+      "label": "Your Bio",
+      "row": 4,
+      "cols": 50,
+      "order": 5
+    },
+    {
+      "controlType": "checkbox",
+      "key": "checkbox",
+      "type": "checkbox",
+      "label": "All information true",
+      "value": "Y",
+      "order": 8
+    },
+    {
+      "controlType": "radio",
+      "key": "radio",
+      "label": "Male",
+      "type": "radio",
+      "name": "gender",
+      "value": "M",
+      "order": 6
+    },
+    {
+      "controlType": "radio",
+      "key": "radio",
+      "label": "Female",
+      "type": "radio",
+      "name": "gender",
+      "value": "F",
+      "order": 7
     }
   ]

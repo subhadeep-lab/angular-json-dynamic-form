@@ -9,6 +9,18 @@
       <select [id]="question.key" *ngSwitchCase="'dropdown'" [formControlName]="question.key">
         <option *ngFor="let opt of question.options" [value]="opt.key">{{opt.value}}</option>
       </select>
+
+      <input *ngSwitchCase="'password'" [formControlName]="question.key"
+              [id]="question.key" [type]="question.type">
+              
+      <input *ngSwitchCase="'radio'" [formControlName]="question.key"
+              [id]="question.key" [type]="question.type" [name]= "question.name">
+
+      <textarea *ngSwitchCase="'textarea'" [id]= "question.key" [rows]= "question.row" [cols]= "question.cols">
+              </textarea> 
+            
+      <input *ngSwitchCase="'checkbox'" [formControlName]="question.key"
+              [id]="question.key" [type]="question.type">        
   
     </div>
   

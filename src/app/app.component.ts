@@ -9,7 +9,7 @@ import { HttpService } from './service/http.service';
   selector: 'app-root',
   template: `
     <div *ngIf="arr.length > 0">
-      <h2>Job Application for Heroes</h2>
+      <h2>Registration form</h2>
       <app-dynamic-form [questions]="questions$ | async"></app-dynamic-form>
     </div>
   `
