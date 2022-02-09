@@ -3,6 +3,7 @@
       "controlType": "dropdown",
       "key": "brave",
       "label": "Bravery Rating",
+      "value": "unproven",
       "options": [
         {"key": "solid",  "value": "Solid"},
         {"key": "great",  "value": "Great"},
@@ -15,7 +16,7 @@
       "controlType": "textbox",
       "key": "firstName",
       "label": "First name",
-      "value": "Bombasto",
+      "value": "abc",
       "required": true,
       "order": 1
     },

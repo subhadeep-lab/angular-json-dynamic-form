@@ -26,6 +26,7 @@ export class AppComponent implements OnInit {
     this.httpService.getFormData().subscribe(res => {
       this.arr = res
       this.questions$ = this.service.getQuestions(res);
+      console.log(this.questions$)
     });
   }
 }
